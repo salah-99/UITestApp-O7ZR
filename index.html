@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="Style.css">
+    <title>07ZR</title>
+</head>
+<body>
+    <!-- Above NaveBar -->
+    <div class="above-nave" >
+        <ul class="container nav nav-pills nav-fill">
+            <i id="i" class="fas fa-phone-square-alt"></i>
+            <li class="nav-item">
+                <a class="nav-link">Contactez-nous</a>
+            </li>
+            <span class="span"></span>
+            <li class="nav-item">
+                <a class="nav-link ">0892 427 007</a>
+            </li>
+            <span class="span"></span>
+            <li class="nav-item">
+              <a class="nav-link">08h30 12h30 - 14h 18h30</a>
+            </li>
+            <span class="span"></span>
+            <li class="nav-item">
+              <a class="nav-link">contact@07ZR.com</a>
+            </li>
+            <span class="span"></span>
+            <li class="nav-item">
+              <a class="nav-link">Newsletter</a>
+            </li>
+            <span class="span"></span>
+            <li class="nav-item">
+                <a class="nav-link">Etre rappelé</a>
+            </li>
+            <img class="icon-image" src="./views/france.png" alt="">
+            <span class="fr">FR</span>
+        </ul>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container-fluid">
+          <img src="./views/logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <button type="button" class="btn btn-outline-dark">
+                <i class="fas fa-home"></i>
+            </button>
+            <div class="input-group">
+                <input id="input-nav" type="text" class="form-control" placeholder="Que recherchez-vous ?" aria-label="Username" aria-describedby="basic-addon1">
+                <span class="input-group-text" id="basic-addon1">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+            <button id="btn1" type="button" class="btn btn-outline-dark">
+                <i class="fas fa-users-cog"></i>
+                Compte 48795
+                <i class="fas fa-bell"></i>
+            </button>
+            <button id="btn2" type="button" class="btn btn-outline-dark">
+                <i class="fas fa-file-alt"></i>
+            </button>
+            <button id="btn3" type="button" class="btn btn-outline-dark">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="btn4" type="button" class="btn btn-outline-dark">
+                <i class="fas fa-file-invoice-dollar"></i>
+            </button>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Slide Session -->
+
+    <div id="vid-container" className="w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="shadow"></div>
+        <img class="slide-img" src="./views/slide.jpg" alt="Slide">
+        <h1 class="h1-slide">Bonjour <span class="span-slide">Market</span></h1>
+    </div>
+    <div class="container" style="position: relative; margin-top: -1.97%;">
+        <div class="row">
+            <div class="col">
+                <button type="button" style="background-color: #f5a000; width: 100%; font-weight: bold;" class="btn">
+                    Mon abonnement
+                </button>
+            </div>
+            <div class="col">
+                <button style=" width: 100%;font-weight: bold;" type="button" class="btn btn-light">
+                    Mes commandes
+                </button>
+            </div>
+            <div class="col">
+                <button style="width: 100%; font-weight: bold;" type="button" class="btn btn-light">
+                    Mes services
+                </button>
+            </div>
+            <div class="col">
+                <button style="width: 100%; font-weight: bold;" type="button" class="btn btn-light">
+                    Factures 07ZR
+                </button>
+            </div>
+            <div class="col">
+                <button style="width: 100%; font-weight: bold;" type="button" class="btn btn-light">
+                    Mes paramètres
+                </button>
+            </div>
+            <div class="col">
+                <button style="width: 100%; font-weight: bold;" type="button" class="btn btn-light">
+                    FAQ
+                </button>
+            </div>
+            <div class="col">
+                <button style="width: 100%; font-weight: bold;" type="button" class="btn btn-light">
+                    Besion d'aide
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+
+    <div class="title-content">
+        <h2 class="h2-cont">
+            CHOISISSEZ L'OFFRE CORRESPONDANTE À VOS BESOINS
+        </h2>
+    </div>
+
+    <center>
+        <div class="container">
+            <div id="row-cont" class="row">
+                <div class="col">
+                    <button id="btn-cont" type="button" class="btn btn-outline-dark">
+                        Bi-Annuelle
+                    </button>
+                    <p class="p-cont1">Jusqu'à <span class="span-cont1">999€ d'économie</span></p>
+                </div>
+                <div class="col">
+                    <button id="btn-cont" type="button" class="btn btn-outline-dark">
+                        Annuelle
+                    </button>
+                    <p class="p-cont1">Jusqu'à <span class="span-cont1">99€ d'économie</span></p>
+                </div>
+                <div class="col">
+                    <button id="btn-cont" type="button" class="btn btn-outline-dark">
+                        Quadrimestrielle
+                    </button>
+                    <p class="p-cont1">Jusqu'à <span class="span-cont1">9€ d'économie</span></p>
+                </div>
+                <div class="col">
+                    <button id="btn-cont" type="button" class="btn btn-outline-dark">
+                        Mensuelle
+                    </button>
+                </div>
+            </div>
+        </div>
+    </center>
+
+    <section id="cont-sess" class="container">
+        <div id="divGlobal" >
+            <div id="container1">
+                <div class="div1_g">
+                    <center><h1 class="BtnText1_Offre">GARAGISTE</h1></center>
+                    <center><h1 class="BtnText2-1-Offre">39€<span class="BtnText2-2-Offre">/mois</span></h1></center>
+                    <center><h1 class="BtnText3_Offre">Économisez 60€</h1></center>
+                    <center><button class="btnOffre">CHOISIR CETTE OFFRE</button></center>
+                    <br>
+                    <div id="div1_g_content">
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="sous_content_div_text">
+                                Pneus
+                            </div>
+                        </div>
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="sous_content_div_text">
+                                Piéces Détachées
+                            </div>
+                        </div>
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="sous_content_div_text">
+                                Lubrifiants & Huiles Moteur
+                            </div>
+                        </div>
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="sous_content_div_text">
+                                Chaines & Chaussettes neige
+                            </div>
+                        </div>
+                    </div>
+                    <center class="voir-s"><a class="btnmenus">Voir plus <span class="contentIconMenus"><i class="fas fa-sort-down"></i></span></a></center>
+                </div>
+            </div>
+            <div id="container2">
+                <div class="div2_g">
+                    <center><h1 class="BtnText1_Offre">PNEUMATICIEN</h1></center>
+                    <center><h1 class="BtnText2-1-Offre">29€<span class="BtnText2-2-Offre">/mois</span></h1></center>
+                    <center><h1 class="BtnText3_Offre">Économisez 60€</h1></center>
+                    <center><button class="btnOffre">CHOISIR CETTE OFFRE</button></center>
+                    <br>
+                    <div id="div1_g_content">
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="sous_content_div_text">
+                                Pneus
+                            </div>
+                        </div>
+                        <div class="sous_content_div_text3">
+                            Piéces Détachées
+                        </div>
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="sous_content_div_text">
+                                Lubrifiants & Huiles Moteur
+                            </div>
+                        </div>
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="sous_content_div_text">
+                                Chaines & Chaussettes neige
+                            </div>
+                        </div>
+                        <div class="sous_content_div_text3">
+                            Devis en ligne
+                        </div>
+                    </div>
+                    <center class="voir-s"><a class="btnmenus">Voir plus <span class="contentIconMenus"><i class="fas fa-sort-down"></i></span></a></center>
+                </div>
+            </div>
+            <div id="container3">
+                <div class="div3_g">
+                    <center><h1 class="BtnText1_Offre">MÉCANICIEN</h1></center>
+                    <center><h1 class="BtnText2-1-Offre">29€<span class="BtnText2-2-Offre">/mois</span></h1></center>
+                    <center><h1 class="BtnText3_Offre">Économisez 60€</h1></center>
+                    <center><button class="btnOffre">CHOISIR CETTE OFFRE</button></center>
+                    <br>
+                    <div id="div1_g_content">
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="sous_content_div_text">
+                                Piéces Détachées
+                            </div>
+                        </div>
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="sous_content_div_text">
+                                Lubrifiants & Huiles Moteur
+                            </div>
+                        </div>
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_text3">
+                                Chaines & Chaussettes neige
+                            </div>
+                        </div>
+                        <div class="sous_content_div" >
+                            <div class="sous_content_div_text3">
+                                Collecte et recyclage des pneus
+                            </div>
+                        </div>
+                    </div>
+                    <center class="voir-s"><a class="btnmenus">Voir plus <span class="contentIconMenus"><i class="fas fa-sort-down"></i></span></a></center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message -->
+
+    <div class="message">
+        <p>
+            * Si un acheteur trouve un produit identique du méme vendeur sur un autre marché moins cher et achète néanmoins chez 07ZR, il recevra la différence et un remerciement de la part de 07ZR pour sa fidélité. 
+        </p>
+    </div>
+
+    <!-- Aide Session -->
+
+    <div id="aide-cont" class="container">
+        <div class="row" style="padding-top: 2%;">
+            <div class="col">
+                <img src="./views/aide.png" alt="callCenter">
+            </div>
+            <div class="col">
+                <button style="margin-top: 11%;" type="button" class="btn btn-outline-dark">
+                    <i class="fas fa-envelope"></i>
+                </button>
+                <h4 style="margin-left: 18%; font-weight: bold; margin-top: -11%;">commercial@07zr.com</h4>
+            </div>
+            <div class="col">
+                <button style="margin-top: 11%; margin-left: 5%;" type="button" class="btn btn-outline-dark">
+                    <i class="fas fa-blender-phone"></i>
+                </button>
+                <h5 style="margin-left: 23%; font-weight: bold; margin-top: -13%;">05 16 44 10 17</h5>
+                <span style="margin-top: -0.5%; margin-left: 4%;font-size: small; position: absolute;">(0,35 € la minute)</span>
+            </div>
+            <div class="col">
+                <h5 style="margin-top: 9%; color: #f5a000;">Lundi-Vendredi</h5>
+                <h6>08H30 12H30 - 14H00 18H30</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- Questions session -->
+
+    <div class="title-content">
+        <h2 class="h2-cont">
+            QUESTIONS FRÉQUENTES SUR LES OFFRES
+        </h2>
+    </div>
+
+    <!-- start accordion  -->
+    <div class="container">
+        <div class="row">
+            <!-- start COL1  -->
+            <div class="col-6">
+                <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
+                    <div class="accordion-item bg-body rounded">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Ai-je droit a un essai gratuit ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-body rounded">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Le recyclage est-il inclut dans l'offre pneumaticien
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-body rounded">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Puis-je souscrire a une offre trimestrielle ou semestrielle ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END COL1  -->
+
+            <!-- start COL2  -->
+            <div class="col-6">
+                <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
+                    <div class="accordion-item bg-body rounded">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Quels sont les avantages de l'offre pneumaticien ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-body rounded">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Quels sont les avantages de l'offre mécanicien ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-body rounded">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Puis-je annuler mon abonnement ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- END COL2  -->
+        </div>
+         <!-- END row  -->
+    </div>
+
+    <!-- NOS AVANTAGE -->
+
+    <section id="section2">
+        <div>
+            <center><h1 class="BtnText3_Offre">NOS AVANTAGES</h1></center>
+        </div>
+        <div id="contentDivSection2">
+            <div class="sous_content_div8Section2">
+                <center>
+                    <div class="divCintentImg">
+                        <img src="./views/Capture1.PNG" alt="" width="70%">
+                    </div>
+                </center>
+                <center>
+                    <h1 class="BtnText1_section2" >GARANTI MEILLEUR PRIX</h1>
+                    <P class="sous_content_section2_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                </center>
+            </div>
+            <div class="sous_content_div8Section2">
+                
+                <center>
+                    <div class="divCintentImg">
+                        <img src="./views/Capture2.PNG" alt="" width="50%">
+                    </div>
+                </center>
+                <center>
+                    <h1 class="BtnText1_section2" >GARANTI MEILLEUR PRIX</h1>
+                    <P class="sous_content_section2_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                </center>
+            </div>
+            <div class="sous_content_div8Section2">
+                
+                <center>
+                    <div class="divCintentImg">
+                        <img src="./views/Capture3.PNG" alt="" width="50%">
+                    </div>
+                </center>
+                <center>
+                    <h1 class="BtnText1_section2" >GARANTI MEILLEUR PRIX</h1>
+                    <P class="sous_content_section2_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                </center>
+            </div>
+            <div class="sous_content_div8Section2">
+                
+                <center>
+                    <div class="divCintentImg">
+                        <img src="./views/Capture4.PNG" alt="" width="50%">
+                    </div>
+                </center>
+                <center>
+                    <h1 class="BtnText1_section2" >GARANTI MEILLEUR PRIX</h1>
+                    <P class="sous_content_section2_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                </center>
+            </div>
+            <div class="sous_content_div8Section2">
+                
+                <center>
+                    <div class="divCintentImg">
+                        <img src="./views/Capture5.PNG" alt="" width="50%">
+                    </div>
+                </center>
+                <center>
+                    <h1 class="BtnText1_section2" >GARANTI MEILLEUR PRIX</h1>
+                    <P class="sous_content_section2_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                </center>
+            </div>
+            <div class="sous_content_div8Section2">
+                
+                <center>
+                    <div class="divCintentImg">
+                        <img src="./views/Capture6.PNG" alt="" width="50%">
+                    </div>
+                </center>
+                <center>
+                    <h1 class="BtnText1_section2" >GARANTI MEILLEUR PRIX</h1>
+                    <P class="sous_content_section2_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                </center>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer" style="background-color: black;">
+        <div class="container" style="background-color: black;">
+            <div class="text-center">
+                <h3 class="title" style="margin-bottom: 60px; font-size: 22px; color: #f69f00; font-weight: bold; font-family: system-ui; padding-top: 5%;">CONTACTEZ-NOUS</h3>
+            </div>
+
+            <div class="row text-center col" style="margin-bottom: 40px;">
+                <div class="col-sm-3">
+                   <div class="box" style="display: flex;">
+                        <div class="round round-lg green">
+                            <i style="font-size: 16px; color: black; margin-top: 9px; position: absolute; margin-left: -8px;" class="fas fa-blender-phone"></i>
+                        </div> 
+                        <div style="display: flexbox; text-align: left; margin-left: 20px;" class="cc" >
+                        <p style="font-size: 15px; font-weight: bold; margin-bottom: 0px; font-family: system-ui;" class="contact text-white">00 41 22 59 48 116</p>
+                    </div>
+                   </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="box" style="display: flex;">
+                        <div class="round round-lg green">
+                            <i style="font-size: 16px; color: black; margin-top: 9px; position: absolute; margin-left: -8px;" class="fas fa-phone-alt"></i>
+                        </div>
+                       <div style="display: flexbox; text-align: left; margin-left: 20px;" class="cc">
+                        <p style="font-size: 15px; font-weight: bold; margin-bottom: 0px; font-family: system-ui;" class="contact text-white">0892 427 007</p>
+                        <span style="color: #f69f00;">0,35$ la minute</span> 
+                       </div>
+                    </div>  
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="box" style="display: flex;">
+                        <div class="round round-lg green">
+                            <i style="font-size: 16px; color: black; margin-top: 9px; position: absolute; margin-left: -8px;" class="fas fa-envelope"></i>
+                        </div>
+                       <div style="display: flexbox; text-align: left; margin-left: 20px;" class="cc">
+                        <p style="font-size: 15px; font-weight: bold; margin-bottom: 0px; font-family: system-ui;" class=" contact text-white">contact@O7ZR.com</p> 
+                       </div>
+                    </div>
+                           
+                </div>
+
+                <div class="col-sm-3">
+                    <p style="font-size: 15px; font-weight: bold; margin-bottom: 0px; font-family: system-ui;" class="contact text-white">Lundi - Vendredi</p>        
+                    <p style="font-size: 14px; font-family: serif;" class="info text-white">8h30-12h30 & 14h-18h30</p> 
+                </div>
+
+            </div>
+
+            <div class="line" style="width: 100%; height: 1px; margin-bottom: 50px;background-color: #858585;"></div>
+
+            <div class="row text-center col" style="margin-bottom: 40px;">
+                <div class="col-sm-4">
+                    <p style="font-size: 14px; font-family: serif;" class="info text-white">Conditions d'utilisateur</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="./views/logoo.png" alt="logo">
+                    <p style="font-size: 14px; font-family: serif;" class="info text-white">La platforme d'achat des professionnels de l'automobile</p>    
+                </div>
+                
+                <div class="col-sm-4">
+                    <p style="font-size: 14px; font-family: serif;" class="info text-white">Espace public</p>        
+                </div>
+
+            </div>
+
+            <div class="line"></div>
+
+
+            <div class="row" style="justify-content: space-between; margin: 0;">
+                <div>
+                    <p style="font-weight: bold; font-size: 26px; font-family: system-ui;" class="ph text-white">O7RZ <span style="color: #a8a8a8; font-size: 13px; font-family: serif;"> est une marque enregistrée @ Copyright2020 - plan du site</span></p>
+                </div>
+
+                <div style="margin-left: 50%; position: absolute;margin-top: 9px;" class="lange">
+                    <div class="box" style="display: flex;">
+                        <p class="text-white">Présent sur</p>
+                        <div class="col-sm-1">
+                            <img src="./views/far.png" alt="" width="45px">
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="./views/far.png" alt="" width="45px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Bootstrap CDN JS Bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN JS Separate-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
